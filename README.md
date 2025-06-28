@@ -1,16 +1,34 @@
-# razgorsek
+# RozgarSeek – Gig Economy Job Finder App
 
-A new Flutter project.
+RozgarSeek is a Flutter-based mobile and web application designed to connect skilled professionals with users seeking services — similar to UrbanClap or TaskRabbit. It supports real-time bookings, chat, payments, and role-based access (Admin, User, and Provider).
 
-## Getting Started
+![RozgarSeek Logo](assets/logo.png)
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔐 **Role-Based Authentication** (User, Provider, Admin)
+- 🧾 **Service Listings** with Category & Search Filters
+- 📆 **Real-Time Booking System**
+- 💬 **In-App Chat (User ↔️ Provider)**
+- 💳 **Payment Integration (Razorpay)**
+- 📊 **Admin Dashboard (Flutter Web)**
+- 🌐 **Localization Support**
+- 🔔 **Push Notifications for Booking Status**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📱 Tech Stack
+
+| Technology       | Purpose                         |
+|------------------|---------------------------------|
+| Flutter          | Cross-platform UI               |
+| Firebase Auth    | Secure login/signup             |
+| Firestore DB     | Realtime data (services, users) |
+| Firebase Storage | Media upload (images/docs)      |
+| Razorpay         | Payment Gateway                 |
+| GetX             | State Management & Routing      |
+
+---
+
